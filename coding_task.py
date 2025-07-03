@@ -185,5 +185,54 @@ def handle_click(_):
         print("\n📌 Answer:\n", result["answer"])
         print("\n📚 Source Chunks:")
         for i, chunk in enumerate(result["sources"]):
-            print(f"\n🔹 Chunk {i+1}:\n{chunk[:300]}...")
+            print(f"\n🔹 Chunk {i+1}:\n{chunk[:300]}...")  
+
+
+
+
+
+
 submit_button.on_click(handle_click)
+✅ Button clicked!
+📄 Parsed 113 chunks from 1 file(s).
+🤖 Generating answer...
+🚀 Sending prompt to model...
+✅ LLM responded.
+
+📌 Answer:
+ Overfitting is a type of modeling error that results in the failure to predict or guess the future observations effectively or fit additional data in the model that already exists.
+
+📚 Source Chunks:
+
+🔹 Chunk 1:
+The next time an email hits the inbox, the spam filter will use statistical analysis and
+algorithms like Decision Trees and SVM to identify how likely the email is spam.
+5. If the probability is high, then it will be labeled as spam, and the email will not hit your
+inbox.
+6. Based on the accuracy of...
+
+🔹 Chunk 2:
+What Is Overfitting?
+Overfitting is a type of modeling error that results in the failure to predict or guess the future
+observations effectively or fit additional data in the model that already exists.
+24. Explain The Terms Standard Deviation And Variance?
+A standard deviation is defined as the numb...
+
+🔹 Chunk 3:
+Can You Explain The OOB Error?
+An out-of-bag error called OBB error, also known as an out-of-bag estimate, is a technique to
+measure the prediction error of random forests, boosted decision trees. Bagging mainly uses
+subsampling with replacement to create the training samples for the model to learn ...
+
+🔹 Chunk 4:
+Cross-validation: The idea here is to use the initial training data to generate various
+small train test spills. Where these test spills are used to tune the model.
+2. Train with more data: Training with a lot of data can help the algorithms to detect the
+signals better.
+3. Remove feature: You can m...
+
+🔹 Chunk 5:
+Explain Pruning In Decision Trees, And How Is It Done?
+Pruning is a data compression process in machine learning and search algorithms that can
+reduce the size of the decision trees by removing certain sections of the tree that are non-critical
+and unnecessary to classify instances. A tree that is t...
