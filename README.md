@@ -1,3 +1,8 @@
+#Refer to collab link to check the process
+
+https://colab.research.google.com/drive/1r6YoPD-VMgk7QYKGoCTgKHKSfmTLVTdX#scrollTo=E-_mUOBBr_nV
+
+
 
 This project is a Retrieval-Augmented Generation (RAG) chatbot that uses an agentic architecture to answer user questions based on uploaded documents. It uses a message-passing protocol called **Model Context Protocol (MCP)** to coordinate communication between agents and ensure modularity and traceability.
 
